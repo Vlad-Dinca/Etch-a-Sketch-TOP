@@ -8,12 +8,11 @@ body {
   display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:center;
+  justify-content:space-between;
   min-height:100vh;
   margin:0;
   display:flex;
   flex-direction:column;
-  /* flex:wrap; */
 }
 
 header{
@@ -27,51 +26,29 @@ header{
   align-items:center;
   font-size:24px;
   font-weight:600;
-  /* margin:0;
-  padding:0; */
 }
 
 #container{
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
-  /* justify-content:center; */
   flex:1;
-  /* align-content:center; */
   max-width:600px;
   max-height:600px; 
   overflow:hidden;
-  /* box-sizing:border-box;
-  border-radius:1px;
-  border-style:solid;
-  border-color:black;
-  margin:0; */
 }
 
-/* #container > div:nth-child(16n+1) {
-  width: 100%;
-  border: 0;
-  height: 0;
-} */
 
 .gridItem{
   display:flex;
   flex-direction:row;
   flex-wrap:wrap; 
-  /* justify-content:fle; 
-  align-items:center;  */
-  /* width:15px;
-  height:15px;  */
   box-sizing:border-box;
   background-color:white;
   border-color:black;
   border-style:solid;
   border-width:1px; 
   flex:0 0 auto;
-  margin:0;
-  padding:0;
-  /* flex:Wrap; */
-
 }
 
 .gridItem:hover{
